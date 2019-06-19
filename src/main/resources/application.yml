@@ -1,0 +1,8 @@
+listen-server:
+  listen-cmd: "cmd /c netstat -ano|findstr 0.0.0.0:8082"
+  start: "startup.bat"
+  close: "shutdown.bat"
+  floder: "C:\\Users\\Administrator\\Desktop\\apache-tomcat-8.5.34\\bin\\"
+  isOpen: false
+
+
